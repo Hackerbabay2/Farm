@@ -1,0 +1,480 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.16f1 (559fc0ec6670) revision 5611456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16022 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity/Farm3
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+62857
+Successfully changed project path to: D:/Unity/Farm3
+D:/Unity/Farm3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.16f1 (559fc0ec6670)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Farm3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2021.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001906 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 79.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (506ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (381ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Domain Reload Profiling:
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.2 KB). Loaded Objects now: 3895.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 2.633100 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.250600 ms  DeleteObjects: 0.092100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71983.137862 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Bag.prefab
+  artifactKey: Guid(8565cea335c0c8f499ce30e6b8a20e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Bag.prefab using Guid(8565cea335c0c8f499ce30e6b8a20e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870891454c6f53b6cbfec1436b10ea37') in 0.106893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Barrel (1).prefab
+  artifactKey: Guid(58c0a2c3f62d14f4c8ed6cf463f19e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Barrel (1).prefab using Guid(58c0a2c3f62d14f4c8ed6cf463f19e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffab19dfe357aa794249859ac69b92a') in 0.008576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Sign_2 (1).prefab
+  artifactKey: Guid(88553152acedd1a4faeaa5da2a79662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Sign_2 (1).prefab using Guid(88553152acedd1a4faeaa5da2a79662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac54be1d3906ef26f57dd8623dd544b9') in 0.010311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Crate (1).prefab
+  artifactKey: Guid(84924b2cddbce0842aba64864f4a7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Crate (1).prefab using Guid(84924b2cddbce0842aba64864f4a7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9523e28c30c5406b48050f6049d465') in 0.008327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.766617 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Stool.prefab
+  artifactKey: Guid(2197ae59ce21ab34f98eaf9a1e12026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Props/Stool.prefab using Guid(2197ae59ce21ab34f98eaf9a1e12026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dbbddfcd203d81437b9da2d9f4bf1e') in 0.006773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.914843 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Dog_House (1).prefab
+  artifactKey: Guid(57ebf22466d692143a0035cf89d7044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Dog_House (1).prefab using Guid(57ebf22466d692143a0035cf89d7044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f09af3f037222e71bca3b75d35a2f9f') in 0.008808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Privy.prefab
+  artifactKey: Guid(25d9d810898fdcd42a63e22635808386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Privy.prefab using Guid(25d9d810898fdcd42a63e22635808386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe4a327360dd4a470a2168ca6e6c174') in 0.008448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Privy (1).prefab
+  artifactKey: Guid(1bb43f0e7935ee0409d3aae85dbedc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Small Buildings/Privy (1).prefab using Guid(1bb43f0e7935ee0409d3aae85dbedc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385732381bbcf41384c8d6489e8052c3') in 0.007584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.285391 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_High_WF.prefab
+  artifactKey: Guid(321a7d5010627964ba551552033615cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_High_WF.prefab using Guid(321a7d5010627964ba551552033615cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a9d60087be71f86999dde30544d59c') in 0.007575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_Low.prefab
+  artifactKey: Guid(652c5dbc6fd125e45b2f6e14fabead89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_Low.prefab using Guid(652c5dbc6fd125e45b2f6e14fabead89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410c974684be38f5cd08eaf573160bc0') in 0.009019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_6_Low.prefab
+  artifactKey: Guid(18a179115a3cb834bb2fbef608c642d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_6_Low.prefab using Guid(18a179115a3cb834bb2fbef608c642d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3511a66ea8615f1d7c9790340eb2c235') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_4b.prefab
+  artifactKey: Guid(7a7df94194e82eb44be0d8369b350f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_4b.prefab using Guid(7a7df94194e82eb44be0d8369b350f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f2aedc3f8b72073ce60b247354508') in 0.008937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_5_Medium.prefab
+  artifactKey: Guid(1cb0d16516e518246bfbe108d106bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_5_Medium.prefab using Guid(1cb0d16516e518246bfbe108d106bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f695b23633377a51391916a2422923be') in 0.008911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_Medium.prefab
+  artifactKey: Guid(05ed7d097f998224e8657cbb760d2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_Medium.prefab using Guid(05ed7d097f998224e8657cbb760d2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edab3b140a19fec8cb509aeb826197bd') in 0.012165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_Low_WF.prefab
+  artifactKey: Guid(1b92e3625c881894f8c833ca400aec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_1_Low_WF.prefab using Guid(1b92e3625c881894f8c833ca400aec41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38756af049d6ce90ff33c109a3cc4f36') in 0.031845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_5_High.prefab
+  artifactKey: Guid(4db0ecae5b67c6342be24e0288e44d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_5_High.prefab using Guid(4db0ecae5b67c6342be24e0288e44d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479142caa8cab5defec7d4009e3c2a9') in 0.009258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_4a.prefab
+  artifactKey: Guid(e0ddaceb55d6c5f458ddba0f67a2adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_4a.prefab using Guid(e0ddaceb55d6c5f458ddba0f67a2adb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0c649e473e4359c7d5382c8a3e984') in 0.008029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_High.prefab
+  artifactKey: Guid(fbe84b2f2c0beef4e88d65b557dd5d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_High.prefab using Guid(fbe84b2f2c0beef4e88d65b557dd5d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3491c32785decac6b973dc97e32ad940') in 0.006738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_WF_Medium (1).prefab
+  artifactKey: Guid(93fb47f6721a87f40b5d4255e7afee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Trees & Bushes/Tree_3_WF_Medium (1).prefab using Guid(93fb47f6721a87f40b5d4255e7afee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f16c14d3af74f8c3db0fe0808257f2') in 0.007330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.093199 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_1.prefab
+  artifactKey: Guid(541a9680da585674d9d71af7abec177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_1.prefab using Guid(541a9680da585674d9d71af7abec177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ab20a121c2b03edc2b87e21e557316') in 0.008840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_2.prefab
+  artifactKey: Guid(1ac0679f245d4c24d8bf89b6abf578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_2.prefab using Guid(1ac0679f245d4c24d8bf89b6abf578fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921ce0e9ff97ccdcb56d0bca07b6a22b') in 0.008021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_1.prefab
+  artifactKey: Guid(eb084bcfa330958428e327faa78c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_1.prefab using Guid(eb084bcfa330958428e327faa78c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a45b7b0efedaa320be0ef20b2579e9f') in 0.007020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Harvester (1).prefab
+  artifactKey: Guid(1d02ef2243695b644963a5e70375ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Harvester (1).prefab using Guid(1d02ef2243695b644963a5e70375ca18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb32cc0fe6a1f78301f699144d619332') in 0.009344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (2).prefab
+  artifactKey: Guid(d336c907545807047a2e283d109d12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (2).prefab using Guid(d336c907545807047a2e283d109d12d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1f426c6cf5680c4fa4a630376f76fc') in 0.008231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Tractor.prefab
+  artifactKey: Guid(07d2ce96e48fdd242b550aa5d0f44000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Tractor.prefab using Guid(07d2ce96e48fdd242b550aa5d0f44000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf433bae3125550f2b82861cdb8cb1') in 0.008900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_4 (1).prefab
+  artifactKey: Guid(c3c19852e638dd440be82a0f634037c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Trailer_4 (1).prefab using Guid(c3c19852e638dd440be82a0f634037c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f69e15f7c011614498e59c506009506') in 0.007524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Pickup.prefab
+  artifactKey: Guid(9b270a7e0d6659b4d9952f96e6bf2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Pickup.prefab using Guid(9b270a7e0d6659b4d9952f96e6bf2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ce6e439e07adea77d7d17a1589a289') in 0.010011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Jeep (2).prefab
+  artifactKey: Guid(d74b01d4b861a8e4aadc80e055021176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Jeep (2).prefab using Guid(d74b01d4b861a8e4aadc80e055021176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83762ceae4b9f18eeb367d9b1b88750') in 0.008744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Bicycle (1).prefab
+  artifactKey: Guid(e4284d58a6b35dc44840ae7b0c87ac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Bicycle (1).prefab using Guid(e4284d58a6b35dc44840ae7b0c87ac29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237811b4146a2650dd0dab3e526af7a9') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (3).prefab
+  artifactKey: Guid(221bd4640542f6f4988838a801aa5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Prefabs/Vehicles & Machines/Agricultural_Machine_2 (3).prefab using Guid(221bd4640542f6f4988838a801aa5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347524b895e8202184ad60834ef1ffde') in 0.007595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.820015 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/MeshesRebaked/Grounds/Ground_Road_W.fbx
+  artifactKey: Guid(28ccce368150a6f469e3421ef2212755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/MeshesRebaked/Grounds/Ground_Road_W.fbx using Guid(28ccce368150a6f469e3421ef2212755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e52739658574e3b53f28974836ce86') in 0.051715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248328 seconds.
+  path: Assets/Assets/Farm Life/FarmLife_Editable/Meshes/Vehicles_separeted/Bike.fbx
+  artifactKey: Guid(1cb6e242bdcc4f94abd77ac6efc4bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Farm Life/FarmLife_Editable/Meshes/Vehicles_separeted/Bike.fbx using Guid(1cb6e242bdcc4f94abd77ac6efc4bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cd051c7b1798cee14bd7bde9899a87') in 0.055529 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.2 KB). Loaded Objects now: 3940.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 2.533300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.185300 ms MarkObjects: 1.980400 ms  DeleteObjects: 0.096400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Farm3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.2 KB). Loaded Objects now: 3943.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 2.813900 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.235600 ms  DeleteObjects: 0.179400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

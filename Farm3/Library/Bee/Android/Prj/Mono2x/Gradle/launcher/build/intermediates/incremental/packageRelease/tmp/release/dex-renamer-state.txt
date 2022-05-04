@@ -1,0 +1,4 @@
+#Wed May 04 15:18:05 IRKT 2022
+base.0=D\:\\Unity\\Farm3\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
