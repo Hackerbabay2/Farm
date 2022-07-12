@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RecordMode: 0
   m_FrameRatePlayback: 0
-  m_FrameRateType: 4
+  m_FrameRateType: 5
   m_CustomFrameRateValue: 30
   m_StartFrame: 0
   m_EndFrame: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 18
+  take: 51
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -46,7 +46,7 @@ MonoBehaviour:
       m_AbsolutePath: D:/Videos
     m_FileName: movie_<Take>
   outputFormat: 0
-  videoBitRateMode: 0
+  videoBitRateMode: 1
   captureAlpha: 0
   containerFormatSelected: 0
   encoderSelected: 0
@@ -61,8 +61,8 @@ MonoBehaviour:
     gameViewInputSettings:
       m_OutputResolution:
         m_CustomWidth: 1024
-        m_CustomHeight: 1024
-        imageHeight: 0
+        m_CustomHeight: 1280
+        imageHeight: 2147483647
         maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
         imageHeight: 0
-        maxSupportedHeight: 4320
+        maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1

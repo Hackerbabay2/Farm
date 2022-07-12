@@ -7,6 +7,7 @@ public class GrassFiller : MonoBehaviour
     [SerializeField] private GameObject _grassBlock;
     [SerializeField] private Transform _container;
     [SerializeField] private PathCompleter _pathCompleter;
+    [SerializeField] private int _height = 5;
 
     private Animator _animator;
     private float _maxX, _maxZ, _maxHeight;
@@ -24,7 +25,7 @@ public class GrassFiller : MonoBehaviour
         _scale = 0.1f;
         _maxX = _scale * 3;
         _maxZ = _scale * 4;
-        _maxHeight = _scale * 12;
+        _maxHeight = _scale * _height;
         _sizeContrainer = (_maxX * _maxZ * _maxHeight) * 1000;
     }
 
